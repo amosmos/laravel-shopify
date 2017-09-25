@@ -68,7 +68,7 @@ Once installed, you can use the service by either inject it to your methods or a
 For more information about how to use the service, look at https://github.com/joshrps/laravel-shopify-API-wrapper.
 
 ### Dependency Injection
-Now you can simply type hint the service in your method's arguments. For better readabilty, we prefer to import the full class name with a `use` statement, and aliasing it to Shopify while we're at it.
+Now you can simply type hint the service in your method's arguments. For better readabilty, we prefer to import the full class name with a `use` statement, and alias it to Shopify while we're at it.
 
 ```php
 use RocketCode\Shopify\API as Shopify;
@@ -89,7 +89,7 @@ Route::get('/', function (Shopify $shopify) {
 ```
 
 ### Facade
-Now you can use Laravel's [on the fly facades](https://twitter.com/taylorotwell/status/814944242158149632) feature to use the service "statically".
+Now you can use Laravel's [on the fly facades](https://twitter.com/taylorotwell/status/814944242158149632) feature to use the service "statically". We prefer to alias it to ShopifyAPI while we're at it.
 
 ```php
 use Facades\RocketCode\Shopify\API as ShopifyAPI;
