@@ -1,13 +1,14 @@
 # Easier Laravel integration for rocket-code/shopify
 
-This packages allows for a better integration of [rocket-code/shopify](https://github.com/joshrps/laravel-shopify-API-wrapper)
+This packages allows for a better integration of [rocket-code/shopify](https://github.com/joshrps/laravel-shopify-API-wrapper).
 
 ## Benefits
+By using this package you get these added values:
 
-- Auto discovery (Laravel 5.5 or higher)
+- Auto discovery (Laravel 5.5 or higher) - no need to manually add any service provider
 - Configuration in env file
-- Allow the service to be dependency injected
-- Allows usage as real time facade (Laravel 5.4 or higher)
+- Allow the service to be used in dependency injection
+- Allow usage as [real time facade](https://twitter.com/taylorotwell/status/814944242158149632) (Laravel 5.4 or higher)
 
 ## Installation
 
