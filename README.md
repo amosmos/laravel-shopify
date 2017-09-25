@@ -70,7 +70,7 @@ return [
 
 ## Usage
 
-Once installed, you can use the service by either injecting it to your methods or as a real time facade.
+Once installed, you can use the service by either injecting it to your methods or as a real time facade, and then just use it regularly.
 
 For more information about how to use the service, look at https://github.com/joshrps/laravel-shopify-API-wrapper.
 
