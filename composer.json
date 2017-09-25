@@ -1,0 +1,40 @@
+{
+    "name": "boaideas/laravel-shopify",
+    "description": "An easier to use rocket-code/shopify for Shopify integration in Laravel applications",
+    "keywords": [
+        "BOA Ideas",
+        "laravel-shopify",
+        "laravel",
+        "shopify",
+        "api"
+    ],
+    "homepage": "https://github.com/amosmos/laravel-shopify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amos Shacham",
+            "email": "amos@boaideas.com",
+            "homepage": "https://boaideas.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.0",
+        "rocket-code/shopify": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BOAIdeas\\Shopify\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BOAIdeas\\Shopify\\ShopifyServiceProvider"
+            ]
+        }
+    }
+}
