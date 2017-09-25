@@ -34,10 +34,14 @@ If you're using Laravel 5.4 or less, add the `BOAIdeas\Shopify\ShopifyServicePro
 ## Configuration
 
 Now, by default, the package will look for the following values in your .env file:
+```
+// .env
+
 SHOPIFY_KEY=YourAppApiKey
 SHOPIFY_SECRET=YourAppSecret
 SHOPIFY_DOMAIN=YourShopDomain (for private apps)
 SHOPIFY_TOKEN=YourToken
+```
 
 If, for some reason, you want to change any of these settings, you can publish the config file with:
 
@@ -60,7 +64,7 @@ return [
 
 ## Usage
 
-Once installed, you can use the service by either inject it to your methods or as a real time facade. For more information about how to use the service, look at [https://github.com/joshrps/laravel-shopify-API-wrapper].
+Once installed, you can use the service by either inject it to your methods or as a real time facade. For more information about how to use the service, look at https://github.com/joshrps/laravel-shopify-API-wrapper.
 
 ### Dependency Injection
 Now you can simply type hint the service in your method's arguments. For better readabilty, we prefer to import the full class name with a `use` statement, and aliasing it to Shopify while we're at it.
@@ -69,7 +73,9 @@ Now you can simply type hint the service in your method's arguments. For better 
 use RocketCode\Shopify\API as Shopify;
 
 Route::get('/', function (Shopify $shopify) {
-    $call = $shopify->call([
+
+    $call = $shopify->call(
+    [
         'URL' => 'products.json',
         'METHOD' => 'GET',
         'DATA' => [
@@ -77,6 +83,7 @@ Route::get('/', function (Shopify $shopify) {
             'published_status' => 'any'
         ]
     ]);
+
 });
 ```
 
@@ -87,7 +94,9 @@ Now you can use Laravel's [on the fly facades](https://twitter.com/taylorotwell/
 use Facades\RocketCode\Shopify\API as ShopifyAPI;
 
 Route::get('/', function () {
-    $call = ShopifyAPI::call([
+
+    $call = ShopifyAPI::call(
+    [
         'URL' => 'products.json',
         'METHOD' => 'GET',
         'DATA' => [
@@ -95,6 +104,7 @@ Route::get('/', function () {
             'published_status' => 'any'
         ]
     ]);
+
 });
 ```
 
