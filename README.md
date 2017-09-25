@@ -64,7 +64,8 @@ return [
 
 ## Usage
 
-Once installed, you can use the service by either inject it to your methods or as a real time facade. For more information about how to use the service, look at https://github.com/joshrps/laravel-shopify-API-wrapper.
+Once installed, you can use the service by either inject it to your methods or as a real time facade.
+For more information about how to use the service, look at https://github.com/joshrps/laravel-shopify-API-wrapper.
 
 ### Dependency Injection
 Now you can simply type hint the service in your method's arguments. For better readabilty, we prefer to import the full class name with a `use` statement, and aliasing it to Shopify while we're at it.
