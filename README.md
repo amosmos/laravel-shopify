@@ -1,4 +1,8 @@
 # Easier Laravel integration for rocket-code/shopify
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/boaideas/laravel-shopify.svg?style=flat-square)](https://packagist.org/packages/boaideas/laravel-shopify)
+[![Software License](https://img.shields.io/packagist/l/boaideas/laravel-shopify.svg?style=flat-square)](LICENSE)
+[![StyleCI](https://styleci.io/repos/104748433/shield?branch=master)](https://styleci.io/repos/104748433)
+[![Total Downloads](https://img.shields.io/packagist/dt/boaideas/laravel-shopify.svg?style=flat-square)](https://packagist.org/packages/boaideas/laravel-shopify)
 
 This packages allows for a better integration of [rocket-code/shopify](https://github.com/joshrps/laravel-shopify-API-wrapper).
 
