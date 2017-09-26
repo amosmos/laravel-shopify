@@ -4,7 +4,7 @@
 [![StyleCI](https://styleci.io/repos/104748433/shield?branch=master)](https://styleci.io/repos/104748433)
 [![Total Downloads](https://img.shields.io/packagist/dt/boaideas/laravel-shopify.svg?style=flat-square)](https://packagist.org/packages/boaideas/laravel-shopify)
 
-This packages allows for a better integration of [rocket-code/shopify](https://github.com/joshrps/laravel-shopify-API-wrapper).
+This packages allows for a better integration of [rocket-code/shopify](https://github.com/joshrps/laravel-shopify-API-wrapper) in Laravel applications.
 
 ## Benefits
 By using this package you get these added values:
